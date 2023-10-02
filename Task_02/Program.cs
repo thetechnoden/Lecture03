@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Task_02
 {
+
     class Program
     {
         static void Main(string[] args)
@@ -15,13 +16,26 @@ namespace Task_02
             Point C = new Point(6, 5, "C");
 
             Figure triangle = new Figure(A, B, C);
-            triangle.CalculatePerimeter();
+            double trianglePerimeter = triangle.CalculatePerimeter();
 
             Point D = new Point(9, 6, "D");
             Point E = new Point(1, 6, "E");
 
             Figure pentagon = new Figure(A, B, C, D, E);
-            pentagon.CalculatePerimeter();
+            double pentagonPerimeter = pentagon.CalculatePerimeter();
+
+            Console.WriteLine($"Name of polygon: {triangle.GetPoints().Count}-angle");
+            Console.WriteLine($"Perimeter: {trianglePerimeter}");
+
+            Console.WriteLine($"Name of polygon: {pentagon.GetPoints().Count}-angle");
+            Console.WriteLine($"Perimeter: {pentagonPerimeter}");
         }
     }
+  
+
+
+
+
+
+
 }
