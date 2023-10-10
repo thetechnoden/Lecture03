@@ -1,4 +1,4 @@
-﻿# Lecture 02
+﻿# [Lecture 02](#https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley)
 * * *
 КНТЕУ🙉🙉🙉
 ## #Крутелик
